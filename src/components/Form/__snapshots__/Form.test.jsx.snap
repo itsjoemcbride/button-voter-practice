@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<form
+  className="mx-auto flex w-48 flex-col items-center"
+  onSubmit={[Function]}
+>
+  <div>
+    <label
+      className="sr-only"
+      htmlFor="name"
+    >
+      Name
+    </label>
+    <input
+      className="rounded border pl-2"
+      id="name"
+      name="formName"
+      placeholder="Enter your name"
+      type="text"
+    />
+  </div>
+  <button
+    className="mt-4 rounded bg-green-500 px-4 py-2 text-white"
+    type="submit"
+  >
+    Submit
+  </button>
+</form>
+`;

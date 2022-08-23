@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+Array [
+  <h1
+    className="my-8 text-center text-3xl"
+  >
+    Hello 
+  </h1>,
+  <form
+    className="mx-auto flex w-48 flex-col items-center"
+    onSubmit={[Function]}
+  >
+    <div>
+      <label
+        className="sr-only"
+        htmlFor="name"
+      >
+        Name
+      </label>
+      <input
+        className="rounded border pl-2"
+        id="name"
+        name="formName"
+        placeholder="Enter your name"
+        type="text"
+      />
+    </div>
+    <button
+      className="mt-4 rounded bg-green-500 px-4 py-2 text-white"
+      type="submit"
+    >
+      Submit
+    </button>
+  </form>,
+  <ul>
+    <li>
+      Football
+       - 
+      $49.99
+    </li>
+    <li>
+      Baseball
+       - 
+      $9.99
+    </li>
+    <li>
+      Basketball
+       - 
+      $29.99
+    </li>
+    <li>
+      iPod Touch
+       - 
+      $99.99
+    </li>
+    <li>
+      iPhone 5
+       - 
+      $399.99
+    </li>
+    <li>
+      Nexus 7
+       - 
+      $199.99
+    </li>
+  </ul>,
+  <section>
+    <h2
+      className="my-8 text-center text-3xl"
+    >
+      Non-Rigged Elections
+    </h2>
+    <h3>
+      Results
+    </h3>
+    <ul />
+    <div
+      className="mx-auto flex w-48 justify-center gap-x-4"
+    >
+      <button
+        className="rounded px-4 py-2 text-white bg-red-500"
+        onClick={[Function]}
+        type="button"
+      >
+        Rock
+      </button>
+      <button
+        className="rounded px-4 py-2 text-white bg-indigo-500"
+        onClick={[Function]}
+        type="button"
+      >
+        Paper
+      </button>
+      <button
+        className="rounded px-4 py-2 text-white bg-green-500"
+        onClick={[Function]}
+        type="button"
+      >
+        Scissors
+      </button>
+    </div>
+  </section>,
+]
+`;
